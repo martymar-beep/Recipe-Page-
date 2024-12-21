@@ -1,0 +1,192 @@
+*    { margin: 0; 
+      padding: 0; 
+      /*box-sizing: border-box;*/ 
+} 
+
+ body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Young Serif", serif;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+    margin-top: 60px;
+    margin-bottom: 20px; 
+}
+
+.recipe-container{
+   background-color: hsl(0, 0%, 100%);
+   width: 535px;
+   margin: 0 auto;
+   border-radius: 18px;
+   padding: 28px;
+}
+
+img{
+width: 100%;
+border-radius: 12px;
+}
+
+.intro{
+   margin: 30px 0 30px 0;
+}
+
+h1{
+   font-family: "Young Serif", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: hsl(24, 5%, 18%)
+ }
+
+ p{
+   line-height: 1.5;
+   padding-top: 15px;
+ }
+ 
+ .prep{
+   background-color: hsl(330, 100%, 98%);
+   width: 516px;
+   height: 140px;
+   margin: 0 auto;
+   border-radius: 8px;
+   padding-top: 20px;
+   padding-left: 20px;
+  
+
+ } 
+ 
+ .prep ul{
+   list-style-type: square;
+   padding-left: 20px;
+   line-height: 22px;
+ 
+ }
+.prep ul li{
+   padding-left: 10px;
+   padding-top: 10px;
+}
+
+.prep .title{
+   color: hsl(332, 51%, 32%);
+   font-size: 18px;
+   font-weight: 700; 
+}
+
+.bold{
+   font-weight: 700;
+}
+
+ h2{
+   font-family: "Young Serif", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: hsl(332, 51%, 32%)
+ }
+ 
+
+.ingredients{
+   width: 525px;
+   margin: 0 auto;
+   border-bottom: 1px solid hsl(30, 18%, 87%);
+   padding-bottom: 38px;
+   height: 180px;
+} 
+
+.ingredients ul{
+   padding-left: 20px;
+}
+
+.ingredients ul li{
+   padding-left: 10px;
+   padding-top: 10px;
+}
+
+.instructions{
+   width: 550px;
+   margin: 0 auto;
+   border-bottom: 1px solid hsl(30, 18%, 87%);
+   padding-bottom: 28px;
+}
+
+.instructions ol li{
+   padding-top: 14px;
+   padding-left: 5px;
+}
+
+.instructions span{
+   padding-left: 11px;
+}
+
+.instructions ol{
+   list-style: none; 
+   counter-reset: li
+}
+
+.instructions ol li::before {
+   content: counter(li) ".";
+   color:hsl(332, 51%, 32%); 
+   counter-increment: li;
+   font-weight: 700;
+}
+
+.indent{
+   margin-left: 11px;
+}
+
+ h2{
+   padding-top: 20px;
+ }
+
+ .para{
+   padding-bottom: 7px;
+ }
+
+.flex-container{
+   display: flex;
+   border-bottom: 1px solid hsl(30, 18%, 87%);;
+}
+
+.flex-item{
+   padding-left: 30px;
+   padding-top: 15px;
+   padding-bottom: 10px;
+}
+
+.flex-item-1{
+   font-weight: 700;
+   color: hsl(332, 51%, 32%);
+   padding-top: 15px;
+}
+
+.cals{
+   padding-left: 210px;
+}
+
+.carbs{
+   padding-left: 224px;
+}
+
+.pro{
+   padding-left: 215px;
+}
+
+.fat{
+   padding-left: 240px;
+}
+
+.bottom{
+   border-bottom: none;
+}
+
+.attribution{ 
+   font-size: 11px; 
+   text-align: center; 
+}
+
+.attribution a{ 
+   color: hsl(228, 45%, 44%); 
+}
